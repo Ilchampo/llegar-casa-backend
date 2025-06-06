@@ -23,7 +23,7 @@
 		"lint:fix": "eslint . --fix",
 		"format": "prettier --write .",
 		"format:check": "prettier --check .",
-		"prepare": "husky"
+		"prepare": "if [ \"$NODE_ENV\" != \"production\" ]; then husky install; fi"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.28.0",
