@@ -102,3 +102,6 @@ tmp/
 
 # Temporary folders
 .tmp/
+
+# dist
+dist/
